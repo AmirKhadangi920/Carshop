@@ -1573,14 +1573,14 @@ ul.dot-list li i {
 	line-height: 8px;
 	text-transform: uppercase;
 	margin-bottom: 14px;
-	padding-left: 18px;
+	padding-right: 18px;
 	position: relative;
 }
 
 .subheading:before {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	content: "";
 	width: 8px;
 	height: 8px;
@@ -5413,8 +5413,8 @@ td.cart-product-quantity {
 	width: 100%;
 	position: absolute;
 	bottom: 30px;
-	left: 30px;
-	text-align: left;
+	right: 30px;
+	text-align: right;
 }
 
 .product-box .product-hover .product-link h3 {
@@ -5431,7 +5431,7 @@ td.cart-product-quantity {
 	width: 8px;
 	height: 8px;
 	content: "";
-	left: 0;
+	right: 0;
 	top: -30px;
 	background-color: #d22e2e;
 }
@@ -6577,4 +6577,18 @@ footer {
 
 .client-carousel img {
 	display: inline-block;
+}
+
+
+
+
+
+
+
+/*=======================================================================
+                    add and change css mahdi hassannejad
+    =====================================================================
+*/
+.home-container-title {
+    direction:rtl;
 }

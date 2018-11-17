@@ -1599,6 +1599,7 @@ ul.dot-list li i {
 	font-weight: 400;
 	line-height: 23px;
 	margin-bottom: 0;
+    direction:rtl;  
 }
 
 /* Custom, iPhone Retina */
@@ -2622,6 +2623,7 @@ ul.dot-list li i {
 .navbar-nav > li {
 	margin-right: 30px;
 	height: 100px;
+    float:right!important;
 }
 
 .navbar-nav li a {
@@ -3143,6 +3145,7 @@ ul.dropdown-menu li a,
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
+    text-align:right;
 }
 
 ul.dropdown-menu li a:hover,
@@ -3182,13 +3185,16 @@ ul.mega-menu.left {
 }
 
 /* Menu Level #2 */
-li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > a:after {
-	font-family: fontawesome;
-	content: "\f105";
-	font-size: 13px;
-	position: absolute;
-	right: 18px;
-}
+    li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > a:after {
+        font-family: fontawesome;
+        content: "\f105";
+        font-size: 13px;
+        position: absolute;
+        left: 18px;
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
 
 li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu,
  li.dropdown-submenu > ul.mega-menu {
@@ -6121,12 +6127,13 @@ footer {
 	border: 1px solid rgba(229, 229, 229, 0.1);
 	padding: 21px;
 	position: relative;
+    direction:rtl;
 }
 
 .footer-info .info-icon {
 	position: absolute;
 	top: -20px;
-	right: 21px;
+	left: 21px;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -6232,16 +6239,20 @@ footer {
 	padding-left: 15px;
 }
 
-.footer-widget-link li a:before {
-	position: absolute;
-	left: 0;
-	content: "\f101";
-	color: #d22e2e;
-	font-family: fontawesome;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 36px;
-}
+    .footer-widget-link li a:before {
+        position: absolute;
+        left: 0;
+        content: "\f101";
+        color: #d22e2e;
+        font-family: fontawesome;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 36px;
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Safari */
+        transform: rotate(180deg); /* Standard syntax */
+        top:-8px;
+    }
 
 .footer-widget-link li a:hover {
 	color: #d22e2e;
@@ -6258,6 +6269,7 @@ footer {
 	color: #666666;
 	line-height: 16px;
 	margin-bottom: 5px;
+    direction:rtl;
 }
 
 .powered ul li {
@@ -6290,6 +6302,7 @@ footer {
 
 .payment-methods {
 	line-height: 42px;
+    text-align:left;
 }
 
 .footer hr {
@@ -6592,3 +6605,14 @@ footer {
 .home-container-title {
     direction:rtl;
 }
+.footer-widget-link {
+    direction:rtl;
+}
+.footer-widget-about {
+    direction:rtl;
+}
+.powered ul {
+    direction:rtl;
+}
+
+

@@ -1626,6 +1626,7 @@ ul.dot-list li i {
 	font-weight: 800;
 	line-height: 1;
 	text-transform: uppercase;
+    direction:rtl;
 }
 
 .page-title .breadcrumb {
@@ -1637,6 +1638,7 @@ ul.dot-list li i {
 	font-weight: 400;
 	line-height: 35px;
 	text-transform: capitalize;
+    text-align:left;
 }
 
 .page-title .breadcrumb a,
@@ -3459,6 +3461,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	border-radius: 1px;
 	border: 1px solid #e5e5e5;
 	background-color: #ffffff;
+    direction:rtl;
 }
 
 .team .member .member-img {
@@ -3491,6 +3494,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
+   
 }
 
 .team .member-hover h6 {
@@ -3605,11 +3609,11 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	font-weight: 400;
 	position: absolute;
 	top: 38px;
-	left: 30px;
+	right: 30px;
 }
 
 .testimonial .testimonial-content p {
-	padding-left: 50px;
+	padding-right: 50px;
 	color: #a6a6a6;
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
@@ -3930,6 +3934,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .blog-grid .entry .entry-content {
 	position: relative;
 	padding: 21px;
+    direction:rtl;
 }
 
 .blog-grid .entry .entry-format {
@@ -3960,7 +3965,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	margin-left: 0;
 }
 
-.blog-grid .entry .entry-meta li {
+.blog-grid .entry .entry-meta li {  
 	padding-right: 14px;
 	padding-left: 14px;
 	border-right: 1px solid #e5e5e5;
@@ -3971,7 +3976,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .blog-grid .entry .entry-meta li:last-child {
-	border-right: none;
+	border-right: display;
 }
 
 .blog-grid .entry .entry-meta span {
@@ -6604,6 +6609,7 @@ footer {
 */
 .home-container-title {
     direction:rtl;
+    float:right;
 }
 .footer-widget-link {
     direction:rtl;

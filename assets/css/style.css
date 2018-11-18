@@ -5543,6 +5543,7 @@ td.cart-product-quantity {
 \*------------------------------------*/
 .sidebar .widget {
 	margin-bottom: 70px;
+    direction:rtl;
 }
 
 /* Widget */

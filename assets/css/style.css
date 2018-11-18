@@ -899,6 +899,8 @@ ul.dot-list li i {
 
 .pl-0 {
 	padding-left: 0;
+    direction:rtl;
+    float:right;
 }
 
 .pl-xs {
@@ -3213,8 +3215,8 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu,
 	opacity: 0;
 	display: block;
 	position: absolute;
-	left: 100%;
-	right: auto;
+	right: 100%;
+	left: auto;
 	top: 0;
 	box-shadow: 0 2px 3px rgba(39, 41, 48, 0.05);
 	-moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.05);
@@ -5502,7 +5504,7 @@ td.cart-product-quantity {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .widget-contact .form-control {
@@ -6620,5 +6622,9 @@ footer {
 .powered ul {
     direction:rtl;
 }
+.contact-all-address {
+    direction:rtl;
+}
+
 
 
